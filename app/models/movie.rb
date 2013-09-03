@@ -2,8 +2,7 @@ class Movie < ActiveRecord::Base
 
   validates :title, :released_on, :duration, presence: true
 
-  # validates :description, length: {minimum: 25}
-  validates :description, length: {minimum: 50}
+  validates :description, length: {minimum: 25}
 
   validates :total_gross, numericality: {greater_than_or_equal_to: 0}
 
