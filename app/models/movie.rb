@@ -1,6 +1,6 @@
 class Movie < ActiveRecord::Base
 
-  validates :title, :released_on, :duration, presence: true
+  #validates :title, :released_on, :duration, presence: true
 
   validates :description, length: {minimum: 50}
 
