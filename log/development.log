@@ -305,3 +305,5 @@ Started GET "/assets/add.png" for 127.0.0.1 at 2013-08-28 23:13:56 -0500
 
 
 Started GET "/assets/background.jpg" for 127.0.0.1 at 2013-08-28 23:13:56 -0500
+  [1m[36mMovie Load (0.2ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  [1m[35mSQL (8.3ms)[0m  DELETE FROM "movies"
